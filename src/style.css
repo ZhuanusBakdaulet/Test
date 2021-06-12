@@ -1,0 +1,21 @@
+.simple-spinner{
+  height: 100px;
+  width: 100px;
+  background-color:slategray;
+  
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+.simple-spinner::before{
+  animation:rotate 2s infinite linear ;
+}
+@keyframes rotate {
+  from{
+    border-radius: 0%;
+  }
+  to{
+    border-radius: 50%;
+  }
+}
